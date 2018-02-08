@@ -11,6 +11,9 @@ public class Main {
             case "TimeForAChange":
                 TimeForAChange.execute();
                 break;
+            case "LongDivision":
+                LongDivision.execute();
+                break;
             default:
                 System.out.println("Please enter a valid input.");
                 break;
