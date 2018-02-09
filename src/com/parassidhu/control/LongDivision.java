@@ -27,10 +27,10 @@ public class LongDivision {
 
 
 // We are storing an int value in a long variable
-// since we've attached an L to MICROS_PER_DAY
+// since we haven't attached an L to MICROS_PER_DAY
 // An int value can't store such a big number so there's
 // an overflow error. To get the correct input,
 // attach an L to any of the number in both variables like this:
 
-// final long MICROS_PER_DAY = 24L * 60 * 60 * 1000 * 1
+// final long MICROS_PER_DAY = 24L * 60 * 60 * 1000 * 1000;
 // final long MILLIS_PER_DAY = 24L * 60 * 60 * 1000;
