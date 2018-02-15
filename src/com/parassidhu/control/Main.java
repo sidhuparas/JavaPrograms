@@ -14,6 +14,10 @@ public class Main {
             case "LongDivision":
                 LongDivision.execute();
                 break;
+            case "TheLastLaugh":
+                TheLastLaugh.execute();
+                break;
+
             default:
                 System.out.println("Please enter a valid input.");
                 break;
