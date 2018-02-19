@@ -17,11 +17,14 @@ public class Main {
             case "TheLastLaugh":
                 TheLastLaugh.execute();
                 break;
-
+            case "AutomaticTyping":
+                AutomaticTyping.execute();
+                break;
             default:
                 System.out.println("Please enter a valid input.");
                 break;
         }
+
 
     }
 }
