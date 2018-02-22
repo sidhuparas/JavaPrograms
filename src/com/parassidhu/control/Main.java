@@ -20,6 +20,9 @@ public class Main {
             case "AutomaticTyping":
                 AutomaticTyping.execute();
                 break;
+            case "ScreenCapture":
+                ScreenCapture.execute();
+                break;
             default:
                 System.out.println("Please enter a valid input.");
                 break;
