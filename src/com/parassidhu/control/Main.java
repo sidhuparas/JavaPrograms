@@ -23,6 +23,9 @@ public class Main {
             case "ScreenCapture":
                 ScreenCapture.execute();
                 break;
+            case "TaskManager":
+                TaskManager.execute();
+                break;
             default:
                 System.out.println("Please enter a valid input.");
                 break;
