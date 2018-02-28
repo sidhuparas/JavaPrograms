@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Which program would you like to run (Enter Class Name): ");
-        switch (scanner.nextLine()){
+        switch (scanner.nextLine()) {
             case "TimeForAChange":
                 TimeForAChange.execute();
                 break;
@@ -26,11 +26,11 @@ public class Main {
             case "TaskManager":
                 TaskManager.execute();
                 break;
+            case "Clipboard":
+                Clipboard.execute();
             default:
                 System.out.println("Please enter a valid input.");
                 break;
         }
-
-
     }
 }
