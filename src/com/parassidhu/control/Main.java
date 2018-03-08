@@ -28,6 +28,10 @@ public class Main {
                 break;
             case "Clipboard":
                 Clipboard.execute();
+                break;
+            case "CountPrime":
+                CountPrime.execute();
+                break;
             default:
                 System.out.println("Please enter a valid input.");
                 break;
