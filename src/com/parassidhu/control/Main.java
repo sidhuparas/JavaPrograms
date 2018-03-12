@@ -32,6 +32,9 @@ public class Main {
             case "CountPrime":
                 CountPrime.execute();
                 break;
+            case "HeadsOrTails":
+                HeadsOrTails.execute();
+                break;
             default:
                 System.out.println("Please enter a valid input.");
                 break;
